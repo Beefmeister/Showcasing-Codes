@@ -1,0 +1,7 @@
+factor=0
+multiplier=5
+while factor<=12:
+    factor=factor+1
+    answer=factor*multiplier
+    print(answer)
+print("Davids' 5 times table is now printed :-)")
