@@ -1,0 +1,12 @@
+def Backwards(factor,multiplier):
+    while factor>0:
+        answer=factor*multiplier
+        factor=factor-1
+        print(answer)
+        if factor<=0:
+            print("David's reverse times table is done")
+            break
+    else:
+        print("enter a factor greater than one")
+
+print(Backwards(int(input("type in a factor: ")),int(input("type in a multiplier: "))))
