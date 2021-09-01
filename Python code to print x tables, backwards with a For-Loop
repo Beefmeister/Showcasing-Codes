@@ -1,0 +1,10 @@
+def Backwards(factor,multiplier):
+    for value in range(factor,0,-1):    
+        answer=value*multiplier
+        print(answer)
+    if factor<=0:
+        print("enter a factor greater than one")
+    else:
+        print("David's reverse times-ForLoop table is done")
+        
+print(Backwards(int(input("type in a factor: ")),int(input("type in a multiplier: "))))
