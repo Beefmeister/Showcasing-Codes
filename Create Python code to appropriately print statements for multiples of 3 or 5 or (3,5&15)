@@ -1,0 +1,9 @@
+for index in range (101):
+    if(index%3==0)&(index%5!=0)&(index%15!=0):
+        print("boo"+" "+str(index))
+    elif(index%5==0)&(index&3!=0)&(index%15!=0):
+        print("ha"+"  "+str(index))
+    elif((index%3==0)&(index%5==0)&(index%15==0)):
+        print("BOOHA"+" "+str(index))
+    else:
+        print(index)
